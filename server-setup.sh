@@ -20,7 +20,12 @@ fi
 # Check if OS is Ubuntu or Debian
 if [[ $OS == "Ubuntu" || $OS == "Debian" ]]; then
     # Install updates and required packages
-    apt-get update && apt-get install qemu qemu-utils qemu-system-x86-xen qemu-system-x86 qemu-kvm wget curl -y
+    User
+    apt-get update && apt-get install qemu -y
+    apt install qemu-utils -y
+    apt install qemu-system-x86-xen -y
+    apt install qemu-system-x86 -y
+    apt install qemu-kvm -y
 
     # Create QEMU IMG for Windows installation
     qemu-img create -f raw windows.img 16G
