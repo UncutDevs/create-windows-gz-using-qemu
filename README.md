@@ -21,8 +21,8 @@ if the output is greated than 0 then it means the virtualization is enabled and 
 1- Run this Command 
 ```bash
 curl -O https://raw.githubusercontent.com/UncutDevs/create-windows-gz-using-qemu/main/server-setup.sh
-chmod +x setup-server.sh
-./setup-server.sh
+chmod +x server-setup.sh
+./server-setup.sh
 ```
 
 ## Manual Command Section
