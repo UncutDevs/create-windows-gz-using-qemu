@@ -9,6 +9,13 @@ Contributions, bug reports, and feature requests are welcome! Feel free to explo
 ## Usage
 Follow these steps to get started
 
+## FIRST STEP ##
+## Check VM Virtulization ##
+``bash
+echo $(egrep '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)
+```
+if the output is greated than 0 then it means the virtualization is enabled and you are ready to go!!
+
 **Only Works with Ubuntu & Debian (Tested with Ubuntu 22.04, 20.04)**
 
 1- Run this Command 
