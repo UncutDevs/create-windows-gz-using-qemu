@@ -10,7 +10,7 @@ Contributions, bug reports, and feature requests are welcome! Feel free to explo
 Follow these steps to get started
 
 ## FIRST STEP ##
-** Check VM Virtulization **
+**Check VM Virtulization**
 ```bash
 echo $(egrep '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)
 ```
