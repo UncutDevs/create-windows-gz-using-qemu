@@ -21,8 +21,9 @@ fi
 if [[ $OS == "Ubuntu" || $OS == "Debian" ]]; then
     # Install updates and required packages
     User
-    apt-get update && apt-get install qemu -y
-    apt install qemu-utils -y
+    apt-get update
+    apt-get install qemu -y
+    apt install qemu-utils -y	 	 
     apt install qemu-system-x86-xen -y
     apt install qemu-system-x86 -y
     apt install qemu-kvm -y
