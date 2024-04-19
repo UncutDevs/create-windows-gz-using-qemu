@@ -10,8 +10,8 @@ Contributions, bug reports, and feature requests are welcome! Feel free to explo
 Follow these steps to get started
 
 ## FIRST STEP ##
-## Check VM Virtulization ##
-``bash
+** Check VM Virtulization **
+```bash
 echo $(egrep '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)
 ```
 if the output is greated than 0 then it means the virtualization is enabled and you are ready to go!!
