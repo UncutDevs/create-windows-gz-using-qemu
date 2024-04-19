@@ -41,13 +41,15 @@ qemu-system-x86_64 \
 - Go to Server Manager > Turn on Remote Desktop, Goto Local Security > Security Option and disable The CTRL+ALT+DELETE Logon Option
 - Restart Windows For Changes to take Effect Then Your'e Done!!
 
-## Watch Video If you Don't Understand above Text Instrctions ##
-
+## Watch Video if you don't understand above text Instrctions ##
+- Youtube:  link will be posted soon
 ## Last Step ##
 Now Go back to SSH and Compress the img image to gz image using gzip
+
 **Compress IMG to .gz File For Transfering to Cloud Providers**
 ```bash
 dd if=windows.img | gzip -c>windows.gz
 ```
+
 ## Credits & Licence
-This project is under the [MIT Licence]
+This project is under the [MIT Licence] https://raw.githubusercontent.com/UncutDevs/create-windows-gz-using-qemu/main/LICENSE
